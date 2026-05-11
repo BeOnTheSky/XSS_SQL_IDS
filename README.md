@@ -1,4 +1,4 @@
-<img width="1030" height="152" alt="image" src="https://github.com/user-attachments/assets/80426394-521e-489e-b33e-f4a683c4dc84" /># 基于语义的 Web 攻击检测
+# 基于语义的 Web 攻击检测
 
 ## 1. 项目简介
 
@@ -178,7 +178,7 @@ python all.py
 <img width="799" height="498" alt="image" src="https://github.com/user-attachments/assets/d88c73eb-c8da-4f55-aa1b-65982157dc6b" />
 <img width="744" height="558" alt="image" src="https://github.com/user-attachments/assets/694a703d-89f9-4035-9889-feca41b48f22" />
 2. 以下分别为服务端运行界面和检测系统运行界面
-<img width="744" height="558" alt="image" src="https://github.com/user-attachments/assets/a42bbf75-b8f0-45ca-a342-00e7c0e620ef" />
+<img width="1005" height="528" alt="image" src="https://github.com/user-attachments/assets/3e19644f-6455-4e24-8903-729973ef2f84" />
 <img width="1033" height="445" alt="image" src="https://github.com/user-attachments/assets/fc66e527-46fa-4317-8709-aa9fab1cc281" />
 3. 使用xsstrike模拟xss攻击，分别是正常URL和异常URL日志图
 <img width="1030" height="152" alt="image" src="https://github.com/user-attachments/assets/837bc364-94c3-4f9b-aa3d-21c5655e5ce9" />
