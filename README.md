@@ -1,4 +1,4 @@
-# 基于语义的 Web 攻击检测
+<img width="1030" height="152" alt="image" src="https://github.com/user-attachments/assets/80426394-521e-489e-b33e-f4a683c4dc84" /># 基于语义的 Web 攻击检测
 
 ## 1. 项目简介
 
@@ -173,9 +173,19 @@ python all.py
 ## 10. 与传统规则检测的区别
 
 传统 Web 攻击检测通常依赖关键词、正则表达式或专家规则，对编码变形、混淆 payload、拼接语句等变体攻击的泛化能力有限。本项目将请求内容视为语义序列，通过 embedding、fastText、LSTM、TextCNN 等模型学习 token 之间的上下文关系，能够在一定程度上识别与已知攻击语义相近但表面形式不同的攻击样本。
+## 11. 实验示例
+1. 以下两图分别为正常URL和异常URL的特征图
+<img width="799" height="498" alt="image" src="https://github.com/user-attachments/assets/d88c73eb-c8da-4f55-aa1b-65982157dc6b" />
+<img width="744" height="558" alt="image" src="https://github.com/user-attachments/assets/694a703d-89f9-4035-9889-feca41b48f22" />
+2. 以下分别为服务端运行界面和检测系统运行界面
+<img width="744" height="558" alt="image" src="https://github.com/user-attachments/assets/a42bbf75-b8f0-45ca-a342-00e7c0e620ef" />
+<img width="1033" height="445" alt="image" src="https://github.com/user-attachments/assets/fc66e527-46fa-4317-8709-aa9fab1cc281" />
+3. 使用xsstrike模拟xss攻击，分别是正常URL和异常URL日志图
+<img width="1030" height="152" alt="image" src="https://github.com/user-attachments/assets/837bc364-94c3-4f9b-aa3d-21c5655e5ce9" />
+<img width="1017" height="446" alt="image" src="https://github.com/user-attachments/assets/c47170c6-26ec-4f1a-89d5-b37a72a89b17" />
 
 
-## 11. 作者与单位声明
+## 12. 作者与单位声明
 本项目作者及单位
 ```text 
 项目名称：windows-process-unlink-methods
