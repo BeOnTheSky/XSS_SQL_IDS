@@ -179,5 +179,5 @@ python all.py
 本项目作者及单位
 ```text 
 项目名称：windows-process-unlink-methods
-项目作者：Hong Deng, Chang Ding, Jianhui Qiu, Shengrui Gao, Zhiquan Liu
+项目作者：Jianhui Qiu，Hong Deng, Chang Ding, Shengrui Gao, Zhiquan Liu
 作者单位：暨南大学网络空间安全学院
